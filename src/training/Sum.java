@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Sum {
 
 	public static void main(String[] args) {
+		System.out.println("FIND SUM");
 		Scanner sd=new Scanner(System.in);
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the starting range :");
