@@ -6,7 +6,6 @@ public class Sum {
 
 	public static void main(String[] args) {
 		System.out.println("FIND SUM");
-		Scanner sd=new Scanner(System.in);
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the starting range :");
 		int startrange = sc.nextInt();
@@ -15,10 +14,9 @@ public class Sum {
 		int sum=0;
 		while (startrange <= endrange) {
 			sum=sum+startrange;
-			System.out.println(sum);
 			startrange++;
 		}
-
+		System.out.println(sum);
 	}
 
 }
